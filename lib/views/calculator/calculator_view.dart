@@ -39,7 +39,6 @@ class _CalculatorViewState extends State<CalculatorView> {
       onStateChange: _onStateChanged,
       // onExitRequested: _onExitRequested,
     );
-
   }
 
   void _onShow() => print("onShow called");
@@ -56,7 +55,9 @@ class _CalculatorViewState extends State<CalculatorView> {
 
   void _onRestart() => print("onRestart called");
 
-  void _onStateChanged(AppLifecycleState state) {print("onStateChanged called with state: $state");}
+  void _onStateChanged(AppLifecycleState state) {
+    print("onStateChanged called with state: $state");
+  }
 
   @override
   void dispose() {
@@ -74,12 +75,15 @@ class _CalculatorViewState extends State<CalculatorView> {
       child: Column(
         children: [
           // First input field
-          Display(hint: "Enter First Number", controller: displayOneController),
+          Display(
+              key: Key("displayOne"),
+              hint: "Enter First Number", controller: displayOneController),
           SizedBox(
             height: 30,
           ),
           // Second input field
           Display(
+              key: Key("displayTwo"),
               hint: "Enter Second Number", controller: displayTwoController),
           SizedBox(
             height: 30,
@@ -87,6 +91,7 @@ class _CalculatorViewState extends State<CalculatorView> {
 
           // Display the result
           Text(
+            key: Key("Result"),
             z.toString(),
             style: TextStyle(fontSize: 40),
           ),
