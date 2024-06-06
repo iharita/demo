@@ -1,3 +1,4 @@
+import 'package:demo/views/calculator_view.dart';
 import 'package:demo/views/home_view.dart';
 import 'package:flutter/material.dart';
 
@@ -6,8 +7,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
+      title: 'Flutter Learn',
+      theme: ThemeData(
+        primarySwatch: Colors.deepOrange
+      ),
       home: HomeView(),
     );
   }
 }
+
