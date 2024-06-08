@@ -1,0 +1,76 @@
+{
+  "icecreams": [
+    {
+      "flavour": "Vanilla",
+      "description":  "Classic and creamy vanilla flavor loved by everyone.",
+      "toppings": ["Chocolate Sauce", "Sprinklers", "Whipped Cream"],
+      "price": 4.99,
+      "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?q=80&w=1944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": [
+        {"name": "Vanilla Extract", "quantity":  "2 tsp"},
+        {"name": "Heavy Cream", "quantity":  "2 cups"},
+        {"name":  "Sugar", "quantity": "3/4 cup"}
+      ]
+    },
+    {
+      "flavour": "Chocolate",
+      "description":  "Rich and indulgent chocolate icecream made from premium cocoa beans.",
+      "toppings": ["Caramel Drizzle", "Chopped nuts", "Chocolate Chips"],
+      "price": 5.49,
+      "image": "https://images.unsplash.com/photo-1514849302-984523450cf4?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": [
+        {"name": "Cocoa Powder", "quantity":  "1/2 cup"},
+        {"name": "Whipping cream", "quantity":  "1 1/2 cups"},
+        {"name":  "Egg yolks", "quantity": "4"}
+      ]
+    },
+    {
+      "flavour": "Strawberry",
+      "description":  "Sweet and refreshing strawberry icecream made from fresh strawberries.",
+      "toppings": ["Fresh Strawberries", "Rainbow Sprinklers", "Strawberry serup"],
+      "price": 4.79,
+      "image": "https://images.unsplash.com/photo-1532678465554-94846274c297?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": [
+        {"name": "Strawberries", "quantity":  "1 cup"},
+        {"name": "Whipping cream", "quantity":  "1 1/2 cups"},
+        {"name":  "Sugar", "quantity": "1/2 cup"}
+      ]
+    },
+    {
+      "flavour": "Mint Chocolate Chip",
+      "description":  "Cool and refreshing mint flavor icecream.",
+      "toppings": ["Crushed Oreos", "Dark chocolate", "Mint Cream"],
+      "price": 5.99,
+      "image": "https://images.unsplash.com/photo-1549007994-cb92caebd54b?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": [
+        {"name": "Fresh Mint Leaves", "quantity":  "1/2 cup"},
+        {"name": "Chocolate Chips", "quantity":  "1/2 cup"},
+        {"name":  "Heavy Cream", "quantity": "2 cups"}
+      ]
+    },
+    {
+      "flavour": "Pistachio",
+      "description":  "Delicate pistachio-flavored icecream.",
+      "toppings": ["Crushed Pistachio", "Honey Drizzle", "Whipped Cream"],
+      "price": 6.29,
+      "image": "https://images.unsplash.com/photo-1603736029103-dafad0eb0906?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": [
+        {"name": "Pistachio Nuts", "quantity":  "1/2 cup"},
+        {"name": "Honey", "quantity":  "2 tbsp"},
+        {"name":  "Heavy Cream", "quantity": "1 1/2 cups"}
+      ]
+    },
+    {
+      "flavour": "Caramel Swirl",
+      "description":  "Sweet and buttery caremel icecream loved by everyone.",
+      "toppings": ["Salted caramel", "Caramel popcorn", "Caramel sauce"],
+      "price": 5.79,
+      "image": "https://images.unsplash.com/photo-1621273581871-6a5178a0cdf2?q=80&w=1889&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": [
+        {"name": "Caramel Sauce", "quantity":  "1/2 cup"},
+        {"name": "Caramel Candy", "quantity":  "1/2 cup"},
+        {"name":  "Heavy Cream", "quantity": "1 1/4 cups"}
+      ]
+    }
+  ]
+}
