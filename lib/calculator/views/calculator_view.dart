@@ -76,26 +76,26 @@ class _CalculatorViewState extends State<CalculatorView> {
         children: [
           // First input field
           Display(
-              key: Key("displayOne"),
+              key: const Key("displayOne"),
               hint: "Enter First Number", controller: displayOneController),
-          SizedBox(
+          const SizedBox(
             height: 30,
           ),
           // Second input field
           Display(
-              key: Key("displayTwo"),
+              key: const Key("displayTwo"),
               hint: "Enter Second Number", controller: displayTwoController),
-          SizedBox(
+          const SizedBox(
             height: 30,
           ),
 
           // Display the result
           Text(
-            key: Key("Result"),
+            key: const Key("Result"),
             z.toString(),
-            style: TextStyle(fontSize: 40),
+            style: const TextStyle(fontSize: 40),
           ),
-          Spacer(),
+          const Spacer(),
           // Row of buttons for different operations
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -109,7 +109,7 @@ class _CalculatorViewState extends State<CalculatorView> {
                         num.tryParse(displayTwoController.text)!;
                   });
                 },
-                child: Icon(CupertinoIcons.add),
+                child: const Icon(CupertinoIcons.add),
               ),
               // Button for subtraction
               FloatingActionButton(
@@ -120,7 +120,7 @@ class _CalculatorViewState extends State<CalculatorView> {
                         num.tryParse(displayTwoController.text)!;
                   });
                 },
-                child: Icon(CupertinoIcons.minus),
+                child: const Icon(CupertinoIcons.minus),
               ),
               // Button for multiplicaton
               FloatingActionButton(
@@ -131,7 +131,7 @@ class _CalculatorViewState extends State<CalculatorView> {
                         num.tryParse(displayTwoController.text)!;
                   });
                 },
-                child: Icon(CupertinoIcons.multiply),
+                child: const Icon(CupertinoIcons.multiply),
               ),
               // Button for division
               FloatingActionButton(
@@ -142,11 +142,11 @@ class _CalculatorViewState extends State<CalculatorView> {
                         num.tryParse(displayTwoController.text)!;
                   });
                 },
-                child: Icon(CupertinoIcons.divide),
+                child: const Icon(CupertinoIcons.divide),
               )
             ],
           ),
-          SizedBox(
+          const SizedBox(
             height: 10,
           ),
           // Button to clear the inputs and reset the result
@@ -162,7 +162,7 @@ class _CalculatorViewState extends State<CalculatorView> {
                 displayTwoController.clear();
               });
             },
-            label: Text("Clear"),
+            label: const Text("Clear"),
           ),
         ],
       ),
